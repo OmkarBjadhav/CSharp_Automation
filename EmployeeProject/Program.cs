@@ -21,14 +21,17 @@ namespace Maveric.Runner
             emp.empId = 101;
             emp.empName = "saul";
             emp.empSalary = 9000;
+            emp.empPerformanceType = 'A';
 
             emp1.empId = 102;
             emp1.empName = "kim";
             emp1.empSalary = 12000.2;
+            emp1.empPerformanceType = 'B';
 
             emp2.empId = 103;
             emp2.empName = "Jack";
             emp2.empSalary = 6000.2;
+            emp2.empPerformanceType = 'C';
             /*Console.WriteLine(emp2.empId);
             Console.WriteLine(emp2.empId);
             Console.WriteLine(emp2.empId);*/
@@ -36,7 +39,10 @@ namespace Maveric.Runner
             emp.PrintEmployeeDetails();
             emp1.PrintEmployeeDetails();
             emp2.PrintEmployeeDetails();
-            emp3.PrintEmployeeDetails();
+            // emp3.PrintEmployeeDetails();
+            emp.GetGrossSalaryWithBonus();
+            emp1.GetGrossSalaryWithBonus();
+            emp2.GetGrossSalaryWithBonus();
         }
     }
 }
