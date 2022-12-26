@@ -20,18 +20,22 @@ namespace Maveric.Runner
             Employee emp3 = new Employee();
             emp.empId = 101;
             emp.empName = "saul";
-            emp.empSalary = 9000;
+            //emp.empSalary = 9000;
             emp.empPerformanceType = 'A';
+            emp.EmpSalary = 7800;
 
             emp1.empId = 102;
             emp1.empName = "kim";
-            emp1.empSalary = 12000.2;
+           // emp1.empSalary = 12000.2;
             emp1.empPerformanceType = 'B';
+            emp1.EmpSalary = -27121.0;
+
 
             emp2.empId = 103;
             emp2.empName = "Jack";
-            emp2.empSalary = 6000.2;
+            //emp2.empSalary = 6000.2;
             emp2.empPerformanceType = 'C';
+            emp2.EmpSalary = 38321.1;
             /*Console.WriteLine(emp2.empId);
             Console.WriteLine(emp2.empId);
             Console.WriteLine(emp2.empId);*/
