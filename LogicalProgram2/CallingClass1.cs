@@ -8,11 +8,12 @@ namespace LogicalProgram2
 {
     public class CallingClass1
     {
-        public static void Main(String[] args)
+        public static void Main(string[] args)
         {
            // Program7.TempArray();
           //  Program8.BinaryTriangle();
-            Program9.NumberOfOccurrence();
+           // Program9.NumberOfOccurrence();
+            Program11.ReverseString();
         }
     }
 }

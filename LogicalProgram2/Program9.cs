@@ -24,7 +24,7 @@ namespace LogicalProgram2
                 if (rem == d)
                 {
                     count++;
-                    v /= 10;
+                    v = 10;
                 }
             
                 

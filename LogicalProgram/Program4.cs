@@ -10,12 +10,23 @@ namespace LogicalProgram
     {
     public static void Table5()
         {
-            int num = 5;
-            int i = 0;
-            for (i = 1; i <= 30; i++)
+            int num = 0; int num2 = 0; 
+           int i = 1;
+            for (; i <= 30; i++)
             {
+                if ((5 * i) % 2 == 0)
+                {
+                    Console.WriteLine("Even Number" + 5 * i);
+                    i=num;
+                }
+                else
+                {
 
-                Console.WriteLine(num + "*" + i + "=" + num * i);
+                    Console.WriteLine("Odd Number"+5*i);
+                    num2++;
+                }
+                Console.WriteLine(num);
+               // Console.WriteLine(num2);
             }
 
         }
