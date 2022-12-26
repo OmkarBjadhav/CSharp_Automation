@@ -13,5 +13,14 @@ namespace EmployeeProject
         public double empSalary;
         public static string companyName = "Maveric";
         public static string companLocation = "Pune";
+        public void PrintEmployeeDetails()
+        {
+            Console.WriteLine("Employee Id: "+empId);
+            Console.WriteLine("Employee Name: "+empName);
+            Console.WriteLine("Employee Salary: " + empSalary);
+            Console.WriteLine("Company Name: " +Employee.companyName);
+            Console.WriteLine("Company Location: " + Employee.companLocation);
+            Console.WriteLine("________________________________________");
+        }
     }
 }
