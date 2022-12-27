@@ -31,8 +31,8 @@ namespace SchoolMangement
 
 
 
-            //str.PrintStudentDetails();
-            //str.DisplayCertification();
+            str.PrintStudentDetails();
+            str1.DisplayCertification();
             str2.DisplayCertification();
 
            
