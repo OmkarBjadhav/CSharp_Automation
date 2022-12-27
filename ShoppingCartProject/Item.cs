@@ -24,7 +24,7 @@ namespace ShoppingCartProject
                 Console.WriteLine(finalPrice+" Congratulation you Getting a 10% of Discount Please visit again");
                 
             }
-            else if(quantity<=4 && quantity>=3) 
+            else if(quantity<=5 && quantity>=3) 
             {
                 finalPrice = (price - (price *15/100))/ quantity;
                 Console.WriteLine(finalPrice + " Congratulation you Getting a 15% of Discount Please visit again");

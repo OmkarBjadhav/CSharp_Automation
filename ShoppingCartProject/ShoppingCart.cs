@@ -18,9 +18,9 @@ namespace ShoppingCartProject
             itm1.descr = "T Shirt";
             itm1.quantity = 4;
             itm1.price = 5000;
-            itm.PrintItemDetails(); 
+            //itm.PrintItemDetails(); 
             itm.PrintDiscountPrice();
-            itm1.PrintDiscountPrice();
+            //itm1.PrintDiscountPrice();
 
 
 
