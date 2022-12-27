@@ -29,7 +29,7 @@ namespace ShoppingCartProject
                 finalPrice = (price - (price *15/100))/ quantity;
                 Console.WriteLine(finalPrice + " Congratulation you Getting a 15% of Discount Please visit again");
             }
-            else if (quantity >= 5)
+            else if (quantity >5)
             {
                 finalPrice = (price - (price *25/100))/ quantity;
                 Console.WriteLine(finalPrice + " Congratulation you Getting a 25% of Discount Please visit again");
