@@ -14,6 +14,9 @@ namespace Maveric.Runner
             Console.WriteLine("**********Employee Dashboard****************");
 
 
+             //public static string companyName = "Maveric";
+             //public static string companLocation = "Pune";
+
             Employee emp=new Employee();
             Employee emp1 = new Employee();
             Employee emp2 = new Employee();
@@ -28,7 +31,7 @@ namespace Maveric.Runner
             emp1.empName = "kim";
            // emp1.empSalary = 12000.2;
             emp1.empPerformanceType = 'B';
-            emp1.EmpSalary = -27121.0;
+            emp1.EmpSalary = -2712;
 
 
             emp2.empId = 103;
@@ -44,9 +47,13 @@ namespace Maveric.Runner
             emp1.PrintEmployeeDetails();
             emp2.PrintEmployeeDetails();
             // emp3.PrintEmployeeDetails();
+
+
             emp.GetGrossSalaryWithBonus();
             emp1.GetGrossSalaryWithBonus();
             emp2.GetGrossSalaryWithBonus();
+
+            Console.WriteLine(emp3.EmpSalary);
         }
     }
 }

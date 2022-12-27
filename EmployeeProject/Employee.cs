@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace EmployeeProject
 {
@@ -14,16 +10,9 @@ namespace EmployeeProject
         public char empPerformanceType;
         public static string companyName = "Maveric";
         public static string companLocation = "Pune";
-        public void PrintEmployeeDetails()
-        {
-            Console.WriteLine("Employee Id: "+empId);
-            Console.WriteLine("Employee Name: "+empName);
-            Console.WriteLine("Employee Salary: " + _empSalary);
-            Console.WriteLine("Employee Perforamnce:" + empPerformanceType);
-            Console.WriteLine("Company Name: " +Employee.companyName);
-            Console.WriteLine("Company Location: " + Employee.companLocation);
-         
-        }
+
+
+       
         public double EmpSalary
         {
 
@@ -43,6 +32,18 @@ namespace EmployeeProject
                 }
             }
             
+        }
+
+        public void PrintEmployeeDetails()
+        {
+            Console.WriteLine("Employee Id: " + empId);
+            Console.WriteLine("Employee Name: " + empName);
+            Console.WriteLine("Employee Salary: " + _empSalary);
+            Console.WriteLine("Employee Perforamnce:" + empPerformanceType);
+            Console.WriteLine("Company Name: " + Employee.companyName);
+            Console.WriteLine("Company Location: " + Employee.companLocation);
+            Console.WriteLine("-----------------------------------------------");
+
         }
 
         public void GetGrossSalaryWithBonus()
