@@ -5,17 +5,17 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpAssignment", "CSharpAssignment\CSharpAssignment.csproj", "{D555E21F-FB24-412D-A325-22C682735134}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicalProgram", "LogicalProgram\LogicalProgram.csproj", "{CD6BF534-6C86-4714-861F-6C522B75ABB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicalProgram", "LogicalProgram\LogicalProgram.csproj", "{CD6BF534-6C86-4714-861F-6C522B75ABB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicalProgram2", "LogicalProgram2\LogicalProgram2.csproj", "{AFCE6E95-56F2-42E6-800A-F9663C9C9C5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicalProgram2", "LogicalProgram2\LogicalProgram2.csproj", "{AFCE6E95-56F2-42E6-800A-F9663C9C9C5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeProject", "EmployeeProject\EmployeeProject.csproj", "{8B7F2349-BAD1-42E5-ACB9-210106086D25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeProject", "EmployeeProject\EmployeeProject.csproj", "{8B7F2349-BAD1-42E5-ACB9-210106086D25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolMangement", "SchoolMangement\SchoolMangement.csproj", "{A048D006-F51C-4BB9-92E7-90861CEDFBDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolMangement", "SchoolMangement\SchoolMangement.csproj", "{A048D006-F51C-4BB9-92E7-90861CEDFBDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCartProject", "ShoppingCartProject\ShoppingCartProject.csproj", "{62E7CD2C-B8E4-4595-B076-C348CE78E48D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingCartProject", "ShoppingCartProject\ShoppingCartProject.csproj", "{62E7CD2C-B8E4-4595-B076-C348CE78E48D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumConcept", "..\..\Selenium Project\SeleniumConcept\SeleniumConcept.csproj", "{B5AFF373-67DA-4773-A1FD-F81E614DE637}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumProject", "SeleniumProject\SeleniumProject.csproj", "{A2162D11-BC1C-4BD1-A7AA-27252E1271CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{62E7CD2C-B8E4-4595-B076-C348CE78E48D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62E7CD2C-B8E4-4595-B076-C348CE78E48D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62E7CD2C-B8E4-4595-B076-C348CE78E48D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B5AFF373-67DA-4773-A1FD-F81E614DE637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5AFF373-67DA-4773-A1FD-F81E614DE637}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5AFF373-67DA-4773-A1FD-F81E614DE637}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5AFF373-67DA-4773-A1FD-F81E614DE637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2162D11-BC1C-4BD1-A7AA-27252E1271CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2162D11-BC1C-4BD1-A7AA-27252E1271CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2162D11-BC1C-4BD1-A7AA-27252E1271CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2162D11-BC1C-4BD1-A7AA-27252E1271CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

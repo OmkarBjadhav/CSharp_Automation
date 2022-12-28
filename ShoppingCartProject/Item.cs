@@ -12,7 +12,7 @@ namespace ShoppingCartProject
         public double price;
         public double finalPrice;
 
-        //public Item()
+        //public Item()bfldjf,MSHDogf
         //{
 
         //    _quantity = 1;
