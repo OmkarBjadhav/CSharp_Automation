@@ -8,9 +8,40 @@ namespace ShoppingCartProject
     {
         public int id;
         public string descr;
-        public int quantity;
+        private int _quantity;
         public double price;
         public double finalPrice;
+
+        //public Item()
+        //{
+
+        //    _quantity = 1;
+        //    Console.WriteLine("Object is created ");
+
+        //}
+
+        public Item(int quantity)
+        {
+
+            this._quantity = quantity;
+        }
+      public int Quantity
+        {
+            set 
+            {
+                if(value > 0)
+                {
+                    _quantity=value;
+                }
+                else
+                {
+                    Console.WriteLine("The invalid quantity");
+                }
+                
+            }
+        }
+
+
 
 
 
@@ -18,20 +49,20 @@ namespace ShoppingCartProject
 
         public void PrintDiscountPrice()
         {
-            if(quantity==2)
+            if (_quantity == 2)
             {
-                finalPrice = (price - (price * 10 / 100)) / quantity;
-                Console.WriteLine(finalPrice+" Congratulation you Getting a 10% of Discount Please visit again");
-                
+                finalPrice = (price - (price * 10 / 100)) / _quantity;
+                Console.WriteLine(finalPrice + " Congratulation you Getting a 10% of Discount Please visit again");
+
             }
-            else if(quantity<=5 && quantity>=3) 
+            else if (_quantity <= 5 && _quantity >= 3)
             {
-                finalPrice = (price - (price *15/100))/ quantity;
+                finalPrice = (price - (price * 15 / 100)) / _quantity;
                 Console.WriteLine(finalPrice + " Congratulation you Getting a 15% of Discount Please visit again");
             }
-            else if (quantity >5)
+            else if (_quantity > 5)
             {
-                finalPrice = (price - (price *25/100))/ quantity;
+                finalPrice = (price - (price * 25 / 100)) / _quantity;
                 Console.WriteLine(finalPrice + " Congratulation you Getting a 25% of Discount Please visit again");
             }
             else
@@ -45,7 +76,7 @@ namespace ShoppingCartProject
             Console.WriteLine("************* Item Details *****************");
             Console.WriteLine(id);
             Console.WriteLine(descr);
-            Console.WriteLine(quantity);
+            Console.WriteLine(_quantity);
             Console.WriteLine(price);
 
         }
