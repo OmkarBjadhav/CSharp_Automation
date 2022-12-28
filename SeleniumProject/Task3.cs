@@ -29,17 +29,17 @@ namespace SeleniumConcept
 
             driver.FindElement(By.Name("CompanyName")).SendKeys("Maveric");
             driver.FindElement(By.Name("CompanyEmployees"));
-
-            //dropdown.SelectByValue("250");
+            SelectElement dropdown1 = new SelectElement(driver.FindElement(By.Name("CompanyEmployees")));
+            dropdown1.SelectByValue("250");
 
             driver.FindElement(By.Name("UserPhone")).SendKeys("095");
-            IWebElement  error=driver.FindElement(By.ClassName("error-msg"));
-            Console.WriteLine(error.Text);
-
-            driver.FindElement(By.Name("CompanyCountry")).SendKeys("United States");
+            //IWebElement  error=driver.FindElement(By.ClassName("error-msg"));
+            //Console.WriteLine(error.Text);
+            SelectElement dropdown2 = new SelectElement(driver.FindElement(By.Name("CompanyCountry")));
+            dropdown2.SelectByText("Cameroon");
 
             driver.FindElement(By.ClassName("checkbox-ui")).Click();
-          //  driver.FindElement(By.Name("start my free trial")).Click();
+            driver.FindElement(By.Name("start my free trial")).Click();
          // IWebElement  error=driver.FindElement(By.ClassName("error-msg-block"));
            // Console.WriteLine(error);
 
