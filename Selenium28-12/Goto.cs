@@ -40,8 +40,8 @@ namespace Selenium28_12
             driver.FindElement(By.LinkText("Try Free")).Click();
         
 
-            driver.FindElement(By.Id("first-name")).SendKeys("ABC");
-            driver.FindElement(By.Id("last-name")).SendKeys("XYZ");
+            driver.FindElement(By.Id("first-name")).SendKeys("john");
+            driver.FindElement(By.Id("last-name")).SendKeys("Wick");
             driver.FindElement(By.Id("login__email")).SendKeys("abc@gmail.com");
             //driver.FindElement(By.XPath("//label[text()='Phone Number (Optional)']")).SendKeys("8234724128");
 
