@@ -14,6 +14,9 @@ namespace SeleniumConcept
         {//
 
             IWebDriver driver = new ChromeDriver();
+            driver.Manage().Window.Maximize();
+            driver.Manage().Timeouts().ImplicitWait=TimeSpan.FromSeconds(30);
+
 
             driver.Url = "https://parabank.parasoft.com/parabank/register.htm";
             Console.WriteLine(driver.Title);

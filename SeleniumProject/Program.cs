@@ -13,8 +13,12 @@ namespace SeleniumConcept
          static void Main(string[] args)
         {//
             IWebDriver driver = new ChromeDriver();
+            driver.Manage().Window.Maximize();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
 
             driver.Url = "https://github.com/login";
+            
+                
 
             Console.WriteLine(driver.Title);
 

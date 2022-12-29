@@ -17,6 +17,8 @@ namespace SeleniumConcept
         {
 
             IWebDriver driver = new ChromeDriver();
+            driver.Manage().Window.Maximize();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
 
 
             driver.Url = "https://www.salesforce.com/in/form/signup/freetrial-sales/";

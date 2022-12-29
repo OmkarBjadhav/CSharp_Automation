@@ -14,6 +14,8 @@ namespace SeleniumConcept
         public static void Main(string[] args)
         {
             IWebDriver driver = new ChromeDriver();
+            driver.Manage().Window.Maximize();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
 
             driver.Url = "https://demo.guru99.com/test/newtours/register.php";
             Console.WriteLine(driver.Title);
