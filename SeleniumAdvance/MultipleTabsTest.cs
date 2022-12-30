@@ -18,9 +18,15 @@ namespace SeleniumAdvance
             driver.Manage().Window.Maximize();
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             driver.Url = "https://www.db4free.net/";
-            driver.FindElement(By.LinkText("phpMyAdmin"));
-
-           // Console.WriteLine("Omkara");
+            driver.FindElement(By.PartialLinkText("phpMyAdmin")).Click();
+            driver.SwitchTo().Window(driver.WindowHandles[1]);
+            driver.FindElement(By.Id("input_username")).SendKeys("john");
+            driver.FindElement(By.Id("input_password")).SendKeys("admin");
+            driver.FindElement(By.Id("input_go")).Click();
+            driver.Close();
+           
+            //Console.WriteLine(driver.Title);
+            // Console.WriteLine("Omkara");
         }
     }
 }
