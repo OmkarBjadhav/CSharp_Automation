@@ -29,37 +29,7 @@ namespace SeleniumAdvance
             driver.SwitchTo().Frame(driver.FindElement(By.XPath("//iframe[@name='pat']")));
             driver.FindElement(By.Id("form_fname")).SendKeys("jack");
             driver.FindElement(By.Id("form_lname")).SendKeys("scic");
-            driver.FindElement(By.Id("form_DOB")).SendKeys("01-01-2023");
-            SelectElement select1 = new SelectElement(driver.FindElement(By.Id("form_sex")));
-            select1.SelectByText("Male");
-            SelectElement select2 = new SelectElement(driver.FindElement(By.Id("form_gender_identity")));
-            select2.SelectByText("Identifies as Male");
-            driver.FindElement(By.Id("create")).Click();
-            driver.SwitchTo().DefaultContent();
-            driver.SwitchTo().Frame(driver.FindElement(By.XPath("//iframe[@id='modalframe']")));
-            driver.FindElement(By.XPath("//input[@value='Confirm Create New Patient']")).Click();
-            driver.SwitchTo().DefaultContent();
-            Thread.Sleep(10000);
-            string alerttext = driver.SwitchTo().Alert().Text;
-            Console.WriteLine(alerttext);
-            driver.SwitchTo().Alert().Accept();
-            Thread.Sleep(30000);
-            // driver.SwitchTo().Frame(driver.FindElement(By.XPath("//iframe[@name='pat']")));
-            driver.FindElement(By.XPath("//div[@data-dismiss='modal']")).Click();
-            driver.SwitchTo().DefaultContent();
-            string patientname = driver.FindElement(By.XPath("//span[@data-bind='text: pname()']")).Text;
-            Console.WriteLine(patientname);
-
-
-
-
-            // driver.FindElement(By.Id("authUser")).SendKeys("admin");
-            //  driver.FindElement(By.Id("authUser")).SendKeys("admin");
-
-
-
-
-
+           
         }
     }
 }
