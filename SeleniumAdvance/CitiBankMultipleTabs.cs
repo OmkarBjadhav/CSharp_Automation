@@ -44,7 +44,7 @@ namespace SeleniumAdvance
             driver.FindElement(By.XPath("//a[text()='14']")).Click();
 
             driver.FindElement(By.XPath("//input[@value='PROCEED']")).Click();
-            string msg=driver.FindElement(By.XPath("//*[@id=\"ui-id-1\"]/li")).Text;
+            string msg=driver.FindElement(By.XPath("")).Text;
             Console.WriteLine("The Final Msg"+msg);
 
 
